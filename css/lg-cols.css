@@ -216,7 +216,7 @@ html {
   left: 50%;
   text-align: center;
   color: #fff;
-  z-index: 2;
+  z-index: 5;
 }
 
 .menu-order .btn-green {
