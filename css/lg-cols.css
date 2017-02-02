@@ -554,7 +554,7 @@ input, textarea, select {
 }
 
 .catalog-item:hover {
-  z-index: 98;
+  z-index: 2;
 }
 
 .catalog-item li {
