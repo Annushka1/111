@@ -73,6 +73,11 @@
 		margin-bottom: 10px;
 	}
 
+	.main-nav {
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+
 	.main-nav:before {
     background-color: transparent;
 	}
@@ -109,7 +114,7 @@
 	}
 
 	.btn-red {
-		flex-grow: 1;
+
 	}
 
 	.advantages-items:before {

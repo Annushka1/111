@@ -342,9 +342,7 @@ input, textarea, select {
 
 .main-nav .btn-red {
   margin-left: 20px;
-  display: block;
-
-}
+ }
 
 .main-nav:after {
  content: "";
@@ -363,7 +361,7 @@ input, textarea, select {
   height: 50px;
   padding: 0;
   background-color: #f03226;
-  border: 0;
+  border: 1px solid transparent;
   margin-top: 2px;
   display: inline-block;
   text-align: center;
