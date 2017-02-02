@@ -83,7 +83,7 @@
 		<option data-price="16499" value="Аккумулятор DJI Inspire">Аккумулятор DJI Inspire - 16 499 руб.</option>
 		</select>
 		<input type="number" required="required" maxlength="50" size="30" placeholder="Сумма, руб." name="amount" class="inputbox">
-		<input type="text" required="required" maxlength="50" size="30" placeholder="Номер заказа (сообщает менеджер)" name="order" class="inputbox">
+		<input type="text" required="required" maxlength="50" size="30" placeholder="Номер заказа (сообщает менеджер)" name="order" class="inputbox form-buy__input" id="phone">
 		<input class="btn btn-green" type="submit" value="ПЕРЕЙТИ К ОПЛАТЕ">
 	</form>
 	<span class='callback_closer'>
@@ -102,7 +102,7 @@
 		<form action="" class="offer-form row offer-block">
 			<p class="col-lg-6 col-md-6 col-sm-12 offer-form-text">Поможем выбрать квадрокоптер за 2 минуты</p>
 			<div class="col-lg-3 col-md-3 col-sm-6">
-				<input type="text" placeholder="Введите номе телефона" type="text" name="name" class="inputbox">
+				<input type="text" required="required" maxlength="50" size="30" placeholder="Введите номе телефона" name="order" class="inputbox form-buy__input" id="phone">
 			</div>
 				<div class="col-lg-3 col-md-3 col-sm-6">
 					<input type="submit" name="submit" value="Получить консультацию" class="btn-green">
@@ -761,7 +761,7 @@
 		<form action="cta.php" method="POST" name="forma" class="offer-block row consult-form">
 			<p class="col-lg-6 col-md-6 col-sm-6 consult-text">ОСТАЛИСЬ ВОПРОСЫ? МЫ ВАМ ПЕРЕЗВОНИМ</p>
 			<div class="col-lg-3 col-md-3 col-sm-6">
-				<input type="text" class="inputbox" name placeholder="Введите номер телефона">
+				<input type="text" class="inputbox" name placeholder="Введите номер телефона" id="phone">
 			</div>
 			<div class="col-lg-3 col-md-3 col-sm-6">
 				<input type="submit" name="submit" value="ЗАКАЗАТЬ ЗВОНОК" class="btn-green">

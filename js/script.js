@@ -19,4 +19,6 @@ $('img.animated').hover(
     $('.menu-order').fadeOut();
   });
 
+   $("#phone").mask("(999) 999-9999");
+
 });
