@@ -311,8 +311,8 @@ input, textarea, select {
   border-bottom: 1px solid #AFE2D8;
   border-top: 1px solid #AFE2D8;
   position: relative;
-  display: flex;
-  justify-content: space-around;
+  // display: flex;
+  // justify-content: space-around;
   padding: 5px 230px 0 160px;
 }
 
@@ -320,13 +320,10 @@ input, textarea, select {
   font-size: 18px;
   text-decoration: none;
   color: #fff;
-  margin: 15px 20px 20px 0;
+  padding: 15px 20px 20px 0;
   display: inline-block;
   cursor: pointer;
-}
-
-.main-nav .row {
-  margin: 0;
+  margin: 0 0px 5px 25px;
 }
 
 .main-nav:before {
