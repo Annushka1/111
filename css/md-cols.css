@@ -83,12 +83,8 @@
 	}
 
 	.nav-item {
-		padding: 15px 12px 15px 12px;
+		padding: 8px 12px 15px 12px;
 		margin: 10px 5px 8px 0;
-	}
-
-	.nav-item {
-
 	}
 
 	.main-nav:after {
@@ -97,6 +93,10 @@
 
 	.nav-item:first-child {
 		margin-left: 0;
+	}
+
+	.red-btn {
+		margin-top: 5px;
 	}
 
 	.offer-title {
