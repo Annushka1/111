@@ -342,6 +342,8 @@ input, textarea, select {
 
 .main-nav .btn-red {
   margin-left: 20px;
+  display: block;
+
 }
 
 .main-nav:after {
