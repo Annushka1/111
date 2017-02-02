@@ -1,0 +1,53 @@
+/* reset */
+html, body, h1, h2, h3, h4, h5, h6, form, ul, ol, li, p, table, td, th, img, blockquote, pre { margin: 0; padding: 0; border: 0; }
+img { vertical-align: top; }
+textarea { overflow: auto; }
+table { border-collapse: collapse; }
+pre { margin-top: 8px; }
+
+BODY { background: #fff; color: #3c3c3c; font: 14px/18px "Trebuchet MS", "Helvetica CY", sans-serif; }
+
+H1 { padding-top: 28px; font-size: 32px; line-height: 36px; font-weight: normal; }
+H2 { padding-top: 20px; font-size: 24px; line-height: 28px; font-weight: normal; }
+P { padding-top: 14px; }
+UL { padding: 10px 0 0 28px; }
+LI { padding-top: 4px; }
+
+A { color: #106d9f; text-decoration: underline; }
+A:hover { color: #c00; }
+.m-dotted { color: #106d9f; border-bottom: 1px dotted #106d9f; cursor: pointer; }
+.m-dotted:hover { color: #c00; border-color: #c00; }
+
+/* global */
+.g-hidden { display: none; }
+.g-clear { font-size: 0; clear: both; }
+.g-line { zoom: 1; }
+.g-line:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* layouts */
+HTML, BODY { height: 100%; min-width: 800px; }
+.l-container {  min-height: 100%; background: url(../images/footer.jpg) no-repeat 50% 100%; }
+.l-container_i { width: 752px; margin: 0 auto; padding-bottom: 214px; }
+
+/* header */
+.b-header { position: relative; padding-top: 32px; }
+.b-header .logo { float:  right; padding-right: 12px; }
+.b-header .title { float: left; padding: 18px 0 0 0; }
+.b-header .title .name { float: left; padding: 4px 12px; background: #86c7e0; color: #fff; font-size: 36px; line-height: 40px; }
+.b-header .title .slogan { padding: 4px 0 0 13px; color: #545454; font: italic 18px/22px Georgia, "Century Schoolbook L", Serif; }
+.b-header .like { position: absolute; left: 225px; top: 42px; }
+
+/* menu */
+.b-menu { padding: 28px 6px 0; font-size: 15px; line-height: 19px; }
+.b-menu SPAN { margin: 0 6px; }
+.b-menu .cur { color: #000; border: none; cursor: default; }
+
+/* body */
+.b-body { display: none; padding: 18px 12px 0; }
+
+/* params */
+.b-params { width: 100%; margin-top: 12px; }
+.b-params TD { padding: 8px 12px; vertical-align: top; }
+.b-params THEAD TD { background: #e4e4e4; font-weight: bold; }
+.b-params TBODY TR:nth-child(even) TD { background: #eee; }
+.b-params .default { white-space: nowrap; }
