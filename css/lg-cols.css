@@ -860,3 +860,7 @@ input, textarea, select {
   z-index: 2;
   transform: translateX(50%);
 }
+
+.haze {
+  opacity: 0.5;
+}
