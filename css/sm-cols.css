@@ -111,6 +111,23 @@
     transition: 0.5s;
 	}
 
+  // .main-nav {
+  //   display: flex;
+  //   flex-direction: column;
+  //   text-align: center;
+  // }
+
+
+  .nav-item {
+    display: block;
+    text-align: center;
+  }
+
+  .main-nav .btn-red {
+    display: block;
+    margin: 0 auto;
+  }
+
 	.site-telephone {
 		display: none;
 	}
