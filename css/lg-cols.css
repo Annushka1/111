@@ -863,3 +863,19 @@ input, textarea, select {
 .haze {
   opacity: 0.5;
 }
+
+/* третья страница */
+
+.product {
+  padding: 25px 0 25px 0;
+}
+
+.product-wrapper {
+  border: 1px solid #ccc;
+  padding: 17px 0 35px 0;
+}
+
+.total {
+  background-color: #383a46;
+  padding: 130px 15px 120px 15px;
+}
