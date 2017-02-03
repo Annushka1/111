@@ -311,7 +311,7 @@ input, textarea, select {
   border-bottom: 1px solid #AFE2D8;
   border-top: 1px solid #AFE2D8;
   position: relative;
-  padding-top: 5px;
+  padding: 5px 0 5px 0;
   text-align: center;
 }
 

@@ -74,8 +74,7 @@
 	}
 
 	.main-nav {
-		padding: 5px 80px 5px 80px;
-		text-align: center;
+		padding: 5px 0 5px 0;
 	}
 
 	.main-nav:before {
