@@ -336,9 +336,9 @@ input, textarea, select {
   margin: 5px 0;
 }
 
-.main-nav .btn-red {
-  margin-left: 20px;
- }
+// .main-nav .btn-red {
+//   margin-left: 20px;
+//  }
 
 .main-nav:after {
  content: "";
