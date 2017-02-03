@@ -329,10 +329,10 @@ input, textarea, select {
  content: "";
   background-color: #1abc9c;
   height: 4px;
-  width: 132px;
+  width: 9%;
   position: absolute;
   top: 22px;
-  left: 30px;
+  left: 25px;
   margin: 5px 0;
 }
 
@@ -344,10 +344,10 @@ input, textarea, select {
  content: "";
   background-color: #1abc9c;
   height: 4px;
-  width: 132px;
+  width: 9%;
   position: absolute;
   top: 28px;
-  right: 40px;
+  right: 25px;
 }
 
 .btn-red {
