@@ -332,7 +332,7 @@ input, textarea, select {
   width: 9%;
   position: absolute;
   top: 22px;
-  left: 25px;
+  left: 2%;
   margin: 5px 0;
 }
 
@@ -347,7 +347,7 @@ input, textarea, select {
   width: 9%;
   position: absolute;
   top: 28px;
-  right: 25px;
+  right: 2%;
 }
 
 .btn-red {
