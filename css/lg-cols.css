@@ -1028,6 +1028,7 @@ input, textarea, select {
   line-height: 16px;
   padding: 10px 0 7px 0;
   position: relative;
+  padding-right: 5px;
 }
 
 .product-description-text:after {
@@ -1223,4 +1224,48 @@ input, textarea, select {
   font-size: 14px;
   line-height: 20px;
   margin: 5px 0;
+}
+
+.view1 {
+  background-image: url(../img/obzor031.jpg);
+  height: 450px;
+}
+
+.view1 h3 {
+  margin-top: 30px;
+}
+
+.view-block {
+  padding-top: 0;
+  text-align: center;
+}
+
+.view-block h3 {
+  font-size: 30px;
+  line-height: 39px;
+  font-weight: 300;
+}
+
+.view-block p {
+  font-size: 20px;
+  margin: 20px 0 6px 0;
+} 
+
+.view2 {
+  background-image: url(../img/obzor032.jpg);
+  height: 690px;
+  padding: 260px 0 290px 0;
+}
+
+.view3 {
+  background-image: url(../img/obzor033.jpg);
+  height: 690px;
+  padding: 30px 0 547px 0;
+  color: #fff;
+}
+
+.view4 {
+  background-image: url(../img/obzor034.jpg);
+  height: 690px;
+  padding: 260px 0 320px 0;
 }

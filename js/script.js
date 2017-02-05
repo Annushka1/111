@@ -42,10 +42,4 @@ $(".btn-requisites").click(function () {
       $(".requisites-text").fadeToggle();
     });
 
-$("[data-number]").click(function () {
-  var atr = $(this).addClass('selected-tab').attr('data-number');
-  $(#atr).addClass('selected-content');
-      $(".requisites-text").fadeToggle();
-    });
-
 });
