@@ -867,7 +867,7 @@ input, textarea, select {
 /*contact*/
 
 .delivery {
-  padding: 0 0 50px 0;
+  padding: 0 0 30px 0;
   background-image: url(../img/delivery.jpg);
   -webkit-background-size: auto;
   background-size: auto;
@@ -876,7 +876,7 @@ input, textarea, select {
 }
 
 .delivery-title {
-  margin-top: 50px;
+  margin-top: 40px;
   font-size: 30px;
   font-weight: 300;
   padding-left: 90px;
