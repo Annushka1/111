@@ -31,9 +31,9 @@ $('img.animated').hover(
 
 //галерея (3-4 страница)
 
-$(".catalog__item--photo").click( function() {
+$('.mini_photos').click( function() {
   var new_src=$(this).attr('src');
-  $(this).parent('.catalog__item--gallery-wrap').find('.catalog__item--main-photo').attr('src',new_src);
+  $(this).parent().find('.main_photo').attr('src',new_src);
 });
 
 //requisites 
