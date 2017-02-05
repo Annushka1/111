@@ -33,12 +33,18 @@ $('img.animated').hover(
 
 $('.mini_photos').click( function() {
   var new_src=$(this).attr('src');
-  $(this).parent().find('.main_photo').attr('src',new_src);
+  $('.main_photo').attr('src',new_src);
 });
 
 //requisites 
 
 $(".btn-requisites").click(function () {
+      $(".requisites-text").fadeToggle();
+    });
+
+$("[data-number]").click(function () {
+  var atr = $(this).addClass('selected-tab').attr('data-number');
+  $(#atr).addClass('selected-content');
       $(".requisites-text").fadeToggle();
     });
 
