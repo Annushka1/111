@@ -36,4 +36,10 @@ $(".catalog__item--photo").click( function() {
   $(this).parent('.catalog__item--gallery-wrap').find('.catalog__item--main-photo').attr('src',new_src);
 });
 
+//requisites 
+
+$(".btn-requisites").click(function () {
+      $(".requisites-text").fadeToggle();
+    });
+
 });
