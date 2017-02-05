@@ -924,6 +924,7 @@ input, textarea, select {
 }
 
 .requisites-text {
+  display: none;
   font-size: 16px;
   line-height: 34px;
   padding-left: 90px;
