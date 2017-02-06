@@ -179,6 +179,20 @@ html {
   padding-top: 5px;
 }
 
+.img-text {
+  text-transform: uppercase;
+  font-size: 26px;
+  color: #383a46;
+  float: left;
+  padding: 8px 0 0 5px;
+}
+
+.logo-text {
+  display: block;
+  width: 100%;
+  float: left;
+}
+
 .header-logo a {
   font-size: 20px;
   text-decoration: none;
@@ -186,7 +200,9 @@ html {
 }
 
 .header-logo img {
-  width: 340px;
+  width: 70px;
+  height: 40px;
+  float: left;
 }
 
 
@@ -427,6 +443,7 @@ input, textarea, select {
   margin-top: 0;
   font-size: 14px;
   padding: 10px;
+  width: 100%;
 }
 
 
@@ -643,8 +660,9 @@ input, textarea, select {
 .consult-form .inputbox {
   padding: 10px;
   width: 223px;
-  // margin-top: 10px;
-  font-size: 13px;
+/*  margin-top: 10px;
+*/  font-size: 13px;
+  width: 100%;
 }
 
 .consult-text {
@@ -1050,6 +1068,26 @@ input, textarea, select {
   font-size: 15px;
   line-height: 23px;
 }
+
+.product-details-item {
+  border-bottom: dotted 1px #000;
+  width: 393px;
+  display: block;
+}
+
+.product-details-name {
+  position: relative;
+  bottom: -5px;
+  background-color: #fff;
+}
+
+.product-details-text {
+  position: relative;
+  bottom: -5px;
+  float: right;
+  background-color: #fff;
+}
+
 
 .advantages1 {
   background-image: url(../img/icons.jpg);

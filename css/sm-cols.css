@@ -1,4 +1,4 @@
-@media (min-width: 740px) and (max-width: 991px)  {
+@media (min-width: 740px) and (max-width: 959px)  {
   .container { width: 740px; }
 
   .col-sm-1 { width: 8.33333%; }
@@ -75,8 +75,8 @@
     transition: 0.2s;
     display: inline-block;
     position: absolute;
-    top: 20px;
-    right: 30px;
+    top: 15px;
+    right: -70px;
     cursor: pointer;
 	}
 
@@ -111,12 +111,19 @@
     transition: 0.5s;
 	}
 
-  // .main-nav {
-  //   display: flex;
-  //   flex-direction: column;
-  //   text-align: center;
-  // }
+   .main-nav {
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+   }
 
+  .main-nav:before {
+    width: 0;
+  }
+
+  .main-nav:after {
+    width: 0;
+  }
 
   .nav-item {
     display: block;
@@ -125,16 +132,24 @@
 
   .main-nav .btn-red {
     display: block;
-    margin: 0 auto;
+    margin-left: 43%;
   }
 
-	.site-telephone {
-		display: none;
-	}
+	.logo-text {
+    font-size: 14px;
+  }
 
-	.header-logo {
-		text-align: left;
-	}
+  .img-text {
+    font-size: 22px;
+  }
+
+  .site-telefone-item {
+    font-size: 14px;
+  }
+
+  .telephone-number {
+    font-size: 16px;
+  }
 
 	.block-logo .row {
 		position: relative;
@@ -147,6 +162,12 @@
 	.main-nav {
 		display: none;
 	}
+
+  .offer-title  {
+    font-size: 28px;
+  }
+
+
 
 
   .footer-item ul {
@@ -166,6 +187,43 @@
   }
 
   .offer-form-text {
-    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    word-spacing: 0;
+  }
+
+  .offer-form .inputbox {
+    font-size: 12px;
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+  .offer-form .btn-green {
+    width: 100%;
+    font-size: 12px;
+    padding: 11px 5px;
+    margin-top: 0;
+  }
+
+  .advantages-items li {
+    font-size: 16px;
+  }
+
+  .consult-form .inputbox {
+    font-size: 12px;
+    padding: 10px 5px;
+    text-align: center;
+  }
+
+  .consult-text {
+    font-size: 16px;
+    word-spacing: 0;
+    margin-top: 10px;
+  }
+
+  .consult-form .btn-green {
+    margin-left: 0;
+    font-size: 12px;
+    padding: 11px 10px;
   }
 }
