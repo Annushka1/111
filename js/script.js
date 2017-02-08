@@ -2,9 +2,9 @@ $(document).ready(function() {
 
 // бургер
 
-  $('.burger').on('click', function(){
-    $('.main-nav').slideToggle();
-  });
+  // $('.burger').on('click', function(){
+  //   $('.main-nav').slideToggle();
+  // });
 
 // трясущиеся иконки
 
@@ -36,10 +36,21 @@ $('.mini_photos').click( function() {
   $('.main_photo').attr('src',new_src);
 });
 
-//requisites 
+//requisites
 
 $(".btn-requisites").click(function () {
       $(".requisites-text").fadeToggle();
     });
+
+//burger
+$('.close-nav').hide();
+ $('.burger').on('click', function(){
+    $('.main-nav').fadeIn();
+    $('.close-nav').fadeIn();
+  });
+ $('.close-nav').on('click', function(){
+    $(this).fadeOut();
+    $('.main-nav').fadeOut();
+  });
 
 });

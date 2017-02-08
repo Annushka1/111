@@ -68,7 +68,7 @@
   .header-logo {
   	padding-top: 5px;
   }
-	
+
 	.site-telephone {
 		display: none;
 	}
@@ -97,7 +97,7 @@
     display: inline-block;
     position: absolute;
     top: 20px;
-    right: 10px;
+    right: 20px;
     cursor: pointer;
 	}
 
@@ -131,5 +131,97 @@
     border-color: #14dde8;
     transition: 0.5s;
 	}
+
+
+   .main-nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: none;
+    position: absolute;
+    width: 250px;
+    right: 0;
+    top: 0px;
+   }
+
+   .main-nav:before {
+    width: 0;
+  }
+
+  .main-nav:after {
+    width: 0;
+  }
+
+  .nav-item {
+    display: block;
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .main-nav .btn-red {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .close-nav:before {
+    content: "";
+    cursor: pointer;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 8px;
+    right: 219px;
+    /* left: 0; */
+    z-index: 1;
+    background-image: url(../img/closewindow.jpg);
+  }
+
+  .offer-title {
+    font-size: 16px;
+  }
+
+  .offer-text {
+    font-size: 14px;
+  }
+
+  .offer-form-text {
+    font-size: 18px;
+    height: 50px;
+  }
+
+  .offer-form .inputbox {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .offer-form .btn-green {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .advantages-items li {
+    margin: 20px 0 20px 35px;
+  }
+
+  .advantages-items:before {
+    width: 250px;
+    left: 30px;
+  }
+
+  .advantages-gps {
+    left: -20px;
+    top: 25px;
+  }
+
+  .advantages-camera {
+    left: -20px;
+    top: 30px;
+  }
+
+.advantages-timer {
+    left: -20px;
+    top: 40px;
+}
 
 }

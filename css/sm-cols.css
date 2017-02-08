@@ -76,7 +76,7 @@
     display: inline-block;
     position: absolute;
     top: 15px;
-    right: -70px;
+    right: -20px;
     cursor: pointer;
 	}
 
@@ -111,10 +111,19 @@
     transition: 0.5s;
 	}
 
+  // .row-nav {
+  //   margin: 0;
+  // }
+
    .main-nav {
-     display: flex;
-     flex-direction: column;
-     text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: none;
+    position: absolute;
+    width: 300px;
+    right: 0;
+    top: -80px;
    }
 
   .main-nav:before {
@@ -132,7 +141,7 @@
 
   .main-nav .btn-red {
     display: block;
-    margin-left: 43%;
+    margin: 0 auto;
   }
 
 	.logo-text {
@@ -141,6 +150,10 @@
 
   .img-text {
     font-size: 22px;
+  }
+
+  .site-telephone {
+    padding-right: 36px;
   }
 
   .site-telefone-item {
@@ -159,16 +172,40 @@
 		padding-bottom: 10px;
 	}
 
-	.main-nav {
-		display: none;
-	}
+  .row-nav {
+    position: relative;
+  }
+
+  .nav-item {
+    margin: 0;
+  }
+
+  .close-nav:before {
+    // display: none;
+    content: "";
+    cursor: pointer;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -70px;
+    right: 264px;
+    /* left: 0; */
+    z-index: 1;
+    background-image: url(../img/closewindow.jpg);
+  }
 
   .offer-title  {
     font-size: 28px;
   }
 
 
+  .advantages-items:before, .offer-bottom-title:after {
+    width: 610px;
+  }
 
+  .offer-bottom-title:after{
+    left: 50px;
+  }
 
   .footer-item ul {
     font-size: 14px;

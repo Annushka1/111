@@ -73,6 +73,10 @@
 		margin-bottom: 10px;
 	}
 
+.main-nav .callback_closer {
+  display: none;
+}
+
 	.main-nav {
 		padding: 5px 0 5px 0;
 	}

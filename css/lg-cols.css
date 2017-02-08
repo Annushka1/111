@@ -322,6 +322,15 @@ input, textarea, select {
 
 
 /*main-nav*/
+
+.row-nav {
+  margin: 0;
+}
+
+.main-nav .callback_closer {
+  display: none;
+}
+
 .main-nav {
   background-color: #383A46;
   border-bottom: 1px solid #AFE2D8;
@@ -1287,7 +1296,7 @@ input, textarea, select {
 .view-block p {
   font-size: 20px;
   margin: 20px 0 6px 0;
-} 
+}
 
 .view2 {
   background-image: url(../img/obzor032.jpg);
