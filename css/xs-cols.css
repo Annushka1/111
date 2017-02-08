@@ -177,6 +177,10 @@
     background-image: url(../img/closewindow.jpg);
   }
 
+  .offer-form {
+    text-align: center;
+  }
+
   .offer-title {
     font-size: 16px;
   }
@@ -193,6 +197,7 @@
   .offer-form .inputbox {
     font-size: 12px;
     text-align: center;
+    width: 100%;
   }
 
   .offer-form .btn-green {
@@ -257,7 +262,11 @@
 }
 
 .seo {
-  display: none;
+  // display: none;
+}
+
+.seo-items {
+  width: 290px;
 }
 
 .footer-item:not(:first-child) {
@@ -271,6 +280,34 @@
 
 .footer-items:after {
   left: 10px;
+}
+
+// профи
+.offer-form-text {
+  text-align: center;
+}
+
+.offer-form .btn-green {
+  width: 100%;
+}
+
+.offer-form .input {
+  width: 100%;
+}
+
+.professional-form:after {
+  width: 50%;
+  left: 25%;
+
+}
+
+.professional-form:before {
+  left: 38%;
+  transform: translate(50%, 0);
+}
+
+.professional-seo p {
+  padding: 0;
 }
 
 }

@@ -165,5 +165,12 @@
 	.page-footer {
 		font-size: 14px;
 	}
+
+	// профи
+
+ .professional-form:after {
+ 	width: 80%;
+ 	left: 10%;
+ }
 }
 

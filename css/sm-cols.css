@@ -263,4 +263,16 @@
     font-size: 12px;
     padding: 11px 10px;
   }
+
+  // профи
+
+  .professional-form:before {
+    left: 45px;
+    transform: translate(50%, 0);
+  }
+
+  .professional-form:after {
+    left: 10%;
+    width: 80%;
+  }
 }
