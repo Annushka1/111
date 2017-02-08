@@ -22,12 +22,12 @@
     <div class="block-logo">
       <div class="container">
         <div class="row">
-          <div class="header-logo col-lg-5 col-md-5 col-sm-7"><a href="">
+          <div class="header-logo col-lg-5 col-md-5 col-sm-5 col-xs-11"><a href="">
             <span class=logo-text>Интернет-магазин</span>
             <img src="img/logo.png" alt="logo"><span class="img-text">copterdrone.ru</span>
             <span class=logo-text>Официальные бренды квадрокоптеров</span>
           </a></div>
-          <div class="site-telephone col-lg-7 col-md-7">
+          <div class="site-telephone col-lg-7 col-md-7 col-sm-7">
             <p class="site-telefone-item">Бесплатный звонок по России -<span class="telephone-number">8 (800) 500-62-57</span></p>
             <p class="site-telefone-item">Телефон магазина в Москве -<span class="telephone-number"> 8 (495) 648-60-59</span></p>
             <p class="site-telefone-item">Телефон магазина в Санкт-Петербурге -<span class="telephone-number"> 8 (812) 648-22-37</span></p>
@@ -37,14 +37,16 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <nav class="main-nav col-lg-12 col-md-12 col-sm-5">
+
+      <div class="row row-nav">
+      <span class="close-nav"></span>
+        <nav class="main-nav col-lg-12 col-md-12">
           <a href="index.html" class="nav-item hvr-float-shadow" >Главная</a>
           <a href="" class="nav-item hvr-float-shadow">Любительские</a>
-          <a href="" class="nav-item hvr-float-shadow">Suma</a>
+          <a href="#" class="nav-item hvr-float-shadow">Suma</a>
           <a href="professional.html" class="nav-item hvr-float-shadow">Профи</a>
-          <a href="" class="nav-item hvr-float-shadow">DJI</a>
-          <a href="" class="nav-item hvr-float-shadow">Аксессуары</a>
+          <a href="#" class="nav-item hvr-float-shadow">DJI</a>
+          <a href="#" class="nav-item hvr-float-shadow">Аксессуары</a>
           <a href="contact.html" class="nav-item hvr-float-shadow">Контакты</a>
           <a class="btn btn-red hvr-float-shadow">Оплата на сайте <span>при поддержке АльфаБанк</span></a>
         </nav>
@@ -138,7 +140,7 @@
         <h2 class="total-title">Цена 1990 руб.</h2>
         <p class="total-text">[ доп.аккумулятор +550 руб. ]</p>
         <div class="btn-basket outline-outward">Купить </div>
-        <p class="total-remark">В наличии: мало</p> 
+        <p class="total-remark">В наличии: мало</p>
       </div>
     </div>
   </div>
@@ -150,12 +152,12 @@
   <div class="container">
     <div class="row">
       <ul class="menu-tabs col-lg-12">
-        <li data-number="tab1" class="tab ">Краткое описание</li>
-        <li data-number="tab2" class="tab selected-tab">Технические характеристики</li>
-        <li data-number="tab3" class="tab">Видео</li>
-      </ul> 
-    </div>       
-    <div id="tab1" class="content-item row">
+        <li class="tab selected-tab"><a href="#tab1">Краткое описание</a></li>
+        <li class="tab"><a href="#tab2">Технические характеристики</a></li>
+        <li class="tab"><a href="#tab3">Видео</a></li>
+      </ul>
+    </div>
+    <div id="tab1" class="content-item  selected-content row">
       <div class="tabs-discriprions col-lg-6">
         <p class="content-text">Небольшой квадрокоптер Syma X11С hornet - отличная модель для новичков, простая и надежная. Оборудована достаточно неплохой камерой (карта памяти в комплекте). Круговая защита обезопасит квадрокоптер и моторы при столкновениях. Также Syma X11C hornet умеет делать флипы нажатием одной кнопки.</p>
         <iframe class="content-item1-video"src="https://www.youtube.com/embed/LTiJggTMgSM?rel=0&showinfo=0" frameborder="0"></iframe>
@@ -168,20 +170,17 @@
       </ul>
     </div>
     <div  id="tab2" class="content-item row">
-      <ul class="tech-list">
-        <li>Размер<span></span></li>
-        <li>Дальность<span></span></li>
-        <li>Время полета<span></span></li>
-        <li>Камера<span></span></li>
-        <li>Трансляция<span></span></li>
-        <li>Аккумулятор<span></span></li>
-        <li>Моторы<span></span></li>
-        <li>Гироскоп<span></span></li>
-        <li>GPS<span></span></li>
-        <li>Производитель<span></span></li>
-      </ul>
+      <div class="product-details">
+        <p class="product-details-item"><span class="product-details-name">Размер</span><span class="product-details-text">19 см</span></p>
+        <p class="product-details-item"><span class="product-details-name">Дальность</span><span class="product-details-text">40 м</span></p>
+        <p class="product-details-item"><span class="product-details-name">Время полета</span><span class="product-details-text">7-8 мин</span></p>
+        <p class="product-details-item"><span class="product-details-name">Камера</span><span class="product-details-text">640х480</span></p>
+        <p class="product-details-item"><span class="product-details-name">Трансляция</span><span class="product-details-text">нет</span></p>
+        <p class="product-details-item"><span class="product-details-name">Аккумулятор</span><span class="product-details-text">380 mAh</span></p>
+        <p class="product-details-item"><span class="product-details-name">Моторы</span><span class="product-details-text">коллекторные</span></p>
+      </div>
     </div>
-    <div id="tab3" class="content-item  selected-content row">
+    <div id="tab3" class="content-item row">
           <iframe class="content-item3-video col-lg-6" src="https://www.youtube.com/embed/l17hqVyrE0Y?rel=0&showinfo=0" frameborder="0" class="col-lg-6"></iframe>
           <iframe class="content-item3-video col-lg-6" src="https://www.youtube.com/embed/LTiJggTMgSM?rel=0&showinfo=0" frameborder="0" class="col-lg-6"></iframe>
     </div>

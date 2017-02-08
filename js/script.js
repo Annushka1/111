@@ -53,4 +53,26 @@ $('.close-nav').hide();
     $('.main-nav').fadeOut();
   });
 
+ //табы
+var tabs = document.querySelectorAll('.menu-tabs .tab a');
+var contents = document.querySelectorAll('.content-item');
+
+function changeTab(event) {
+  event.preventDefault()
+  for (var i=0; i<tabs.length; i++){
+    tabs[i].parentNode.classList.remove('selected-tab');
+  }
+  event.target.parentNode.classList.add('selected-tab');
+  for (var i=0; i<contents.length; i++) {
+    contents[i].classList.remove('selected-content');
+  }
+  var link = event.target.getAttribute('href');
+  document.querySelector(link).classList.add('selected-content');
+}
+
+
+for (var i=0; i<tabs.length; i++){
+  tabs[i].addEventListener('click', changeTab);
+}
+
 });
