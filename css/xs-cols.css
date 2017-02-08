@@ -205,8 +205,7 @@
   }
 
   .advantages-items:before {
-    width: 250px;
-    left: 30px;
+    width: 0;
   }
 
   .advantages-gps {
@@ -222,6 +221,56 @@
 .advantages-timer {
     left: -20px;
     top: 40px;
+}
+
+.advantages-items {
+  margin: 0 15px 100px 15px;
+}
+
+.advantages-items li {
+  font-size: 16px;
+}
+
+.offer-bottom-title {
+  font-size: 18px;
+}
+
+.offer-bottom-title:after {
+  width: 300px;
+  left: 5px;
+}
+
+.consult-text {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+
+.consult-form .inputbox {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.consult-form .btn-green {
+  margin-left: 30px;
+}
+
+.seo {
+  display: none;
+}
+
+.footer-item:not(:first-child) {
+  display: none;
+}
+
+.footer_info {
+  text-align: justify;
+  font-size: 12px;
+}
+
+.footer-items:after {
+  left: 10px;
 }
 
 }
