@@ -124,6 +124,7 @@
     width: 300px;
     right: 0;
     top: -80px;
+    z-index: 2;
    }
 
   .main-nav:before {
@@ -190,7 +191,7 @@
     top: -70px;
     right: 264px;
     /* left: 0; */
-    z-index: 1;
+    z-index: 3;
     background-image: url(../img/closewindow.jpg);
   }
 
@@ -275,4 +276,79 @@
     left: 10%;
     width: 80%;
   }
+
+  /*третья страница*/
+
+  .main_photo {
+    width: 250px;
+  }
+
+  .mini_photos {
+    height: 60px;
+    margin-left: 30px;
+  }
+
+  .product-details-item {
+    width: 230px;
+    font-size: 13px;
+  }
+
+  .product-description-title {
+    font-size: 22px;
+  }
+
+.product-description-text {
+  font-size: 12px;
+}
+
+.total {
+  padding: 105px 0 0px 0;
+}
+
+.total-title {
+  font-size: 20px;
+}
+
+.total-text {
+  font-size: 13px;
+}
+
+.total-remark {
+  font-size: 12px;
+}
+
+.offer-more-text {
+  font-size: 16px;
+}
+
+.more-offer-name {
+  font-size: 12px;
+}
+
+.more-offer-name {
+  font-size: 14px;
+}
+
+.tab {
+  font-size: 16px;
+}
+
+.content-text {
+  font-size: 12px;
+}
+
+.reviews {
+  font-size: 16px;
+}
+
+.reviews-item {
+  font-size: 12px;
+}
+
+.offer-more-text {
+  margin: 20px 0;
+}
+
+
+
 }

@@ -172,5 +172,23 @@
  	width: 80%;
  	left: 10%;
  }
+
+ /* третья страница*/
+
+ .main_photo {
+ 	width: 320px;
+ }
+
+ .mini_photos {
+ 	margin: 10px 0 0 40px;
+ }
+
+ .product-details-item {
+ 	width: 270px;
+ }
+
+ .total {
+ 	padding: 100px 15px 46px 15px;
+ }
 }
 

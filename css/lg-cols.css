@@ -669,8 +669,7 @@ input, textarea, select {
 .consult-form .inputbox {
   padding: 10px;
   width: 223px;
-/*  margin-top: 10px;
-*/  font-size: 13px;
+  font-size: 13px;
   width: 100%;
 }
 
@@ -1012,17 +1011,13 @@ input, textarea, select {
 
 .product-wrapper {
   border: 1px solid #ccc;
-  padding: 15px 0 35px 40px;
-  width: 80%;
-  display: inline-block;
+  padding: 15px 0 35px 0;
 }
 
 .total {
   background-color: #383a46;
-  padding: 135px 15px 0 15px;
+  padding: 135px 15px 93px 15px;
   text-align: center;
-  width: 22%;
-  display: inline-block;
 }
 
 
@@ -1031,7 +1026,7 @@ input, textarea, select {
   cursor: pointer;
   -webkit-background-size: contain;
   background-size: contain;
-  margin-top: 10px;
+  margin: 10px 0 0 20px;
 }
 
 .mini_photos:hover {
@@ -1039,8 +1034,8 @@ input, textarea, select {
 }
 
 .main_photo {
-  /*width: 423px;*/
-  height: 335px;
+  width: 423px;
+  // height: 335px;
   cursor: pointer;
 }
 
@@ -1154,7 +1149,6 @@ input, textarea, select {
   font-size: 20px;
   padding-left: 0;
   margin: 0;
-
 }
 
 
@@ -1211,7 +1205,7 @@ input, textarea, select {
 }
 
 .content-item1-video {
-  width: 515px;
+  width: 100%;
   height: 250px;
 }
 
@@ -1320,4 +1314,19 @@ input, textarea, select {
   background-image: url(../img/obzor034.jpg);
   height: 690px;
   padding: 260px 0 320px 0;
+}
+
+.more-offer img {
+  border: 1px solid #fff;
+}
+
+.more-offer img:hover {
+    border: 1px solid #19C15F;
+    border-radius: 3px;
+    transition: 250ms linear all;
+}
+
+.content-item .product-details {
+  margin: 0 0 0 20px;
+  font-size: 14px;
 }
