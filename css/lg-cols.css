@@ -1034,7 +1034,7 @@ input, textarea, select {
 }
 
 .main_photo {
-  width: 423px;
+  width: 100%;
   // height: 335px;
   cursor: pointer;
 }
@@ -1209,19 +1209,19 @@ input, textarea, select {
   height: 250px;
 }
 
-.reviews {
+.rewievs {
   padding-left: 100px;
   font-size: 18px;
 }
 
-.reviews-item {
+.rewievs-item {
   list-style-type: none;
   font-size: 14px;
   margin-bottom: 20px;
   position: relative;
 }
 
-.reviews-title {
+.rewievs-title {
   text-transform: uppercase;
   line-height: 20px;
   text-align: center;
@@ -1229,7 +1229,7 @@ input, textarea, select {
   list-style-type: none;
 }
 
-.reviews-item:after {
+.rewievs-item:after {
   content: "";
   position: absolute;
   height: 50px;
@@ -1330,3 +1330,20 @@ input, textarea, select {
   margin: 0 0 0 20px;
   font-size: 14px;
 }
+
+.btn-rewievs {
+  cursor: pointer;
+  background: #FFFFFF;
+  text-decoration: none;
+  color: #808080;
+  font-size: 20px;
+  padding: 5px 10px;
+  margin-left: 17%;
+}
+
+  .btn-rewievs.outline-outward:before {
+    content: "";
+    border: #8C8C8C solid 2px;
+  }
+
+

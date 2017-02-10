@@ -142,6 +142,7 @@
     width: 250px;
     right: 0;
     top: 0px;
+    z-index: 2;
    }
 
    .main-nav:before {
@@ -173,7 +174,7 @@
     top: 8px;
     right: 219px;
     /* left: 0; */
-    z-index: 1;
+    z-index: 3;
     background-image: url(../img/closewindow.jpg);
   }
 
@@ -308,6 +309,39 @@
 
 .professional-seo p {
   padding: 0;
+}
+
+.product-details-item {
+  width: 100%;
+}
+
+.total {
+  padding: 30px 0 20px 0;
+}
+
+.total-remark {
+  display: none;
+}
+
+.total-text {
+  margin-bottom: 15px;
+}
+
+.tab {
+  font-size: 10px;
+  padding: 0 5px;
+}
+
+.rewievs {
+  padding-left: 70px;
+}
+
+.rewievs-title {
+  margin-right: 100px;
+}
+
+.more-offer {
+  display: none;
 }
 
 }
