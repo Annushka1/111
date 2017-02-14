@@ -349,6 +349,65 @@
   margin: 20px 0;
 }
 
+/*контакты*/
 
+.delivery-title {
+  padding-left: 0;
+  font-size: 26px;
+}
+
+.delivery-title:after {
+  left: 0;
+}
+
+.first-title:after {
+  width: 460px;
+}
+
+.delivery-text {
+  padding-left: 0;
+  font-size: 13px;
+  line-height: 30px;
+}
+
+.second-title:after {
+  width: 390px;
+}
+
+.third-title:after {
+  width: 580px;
+}
+
+.btn-requisites {
+  margin-left: 0;
+  font-size: 26px;
+}
+
+.requisites-text {
+  font-size: 14px;
+  padding-left: 0;
+  line-height: 30px;
+}
+
+.btn-info {
+  margin-left: 0;
+  font-size: 13px;
+}
+
+.internet-shop-title {
+  font-size: 20px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.internet-shop-text {
+  font-size: 13px;
+  padding-left: 0;
+}
+
+.last-title {
+  font-size: 15px;
+  padding-left: 0;
+}
 
 }

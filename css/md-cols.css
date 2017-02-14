@@ -190,5 +190,31 @@
  .total {
  	padding: 100px 15px 46px 15px;
  }
+
+ /*контакты*/
+
+ .third-title:after {
+ 	width: 660px;
+ }
+
+ .map:first-child {
+ 	padding-left: 15px;
+ }
+
+ .btn-info {
+ 	margin-left: 95px;
+ }
+
+ .internet-shop-title {
+ 	margin-left: 85px;
+ }
+
+ .internet-shop-text {
+ 	padding-left: 95px;
+ }
+
+ .last-title {
+ 	padding-left: 95px;
+ }
 }
 
