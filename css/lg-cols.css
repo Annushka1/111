@@ -522,7 +522,9 @@ input, textarea, select {
 
 .product-mask {
   position: absolute;
-  display: none;
+  opacity: 0;
+  backface-visibility: hidden;
+  transition: all 0.05s ease-in-out 0s;
   background: rgba(255,255,255,0.85);
   left: 0;
   top: 0;
@@ -534,9 +536,9 @@ input, textarea, select {
   min-height: 142px;
 }
 
-.catalog-item:hover .product-mask {
-  display: block;
-  transition: all 0.5s ease;
+#bx_3966226736_2383_pict:hover .product-mask {
+  opacity: 1;
+  visibility: visible;
 }
 
 .product-mask ul {
