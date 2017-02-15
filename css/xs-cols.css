@@ -344,6 +344,31 @@
   display: none;
 }
 
+.product-description-text:after {
+  width: 280px;
+}
+
+.product-wrapper {
+  margin-top: 120px;
+}
+
+.product-description-wrapper {
+  position: absolute;
+  top: -530px;
+}
+
+.product-description-text:after {
+  bottom: 85px;
+}
+
+.professional-wrapper.product-description-wrapper {
+  top: -545px
+}
+
+.professional-wrapper .product-description-text:after {
+  bottom: 105px;
+}
+
 /*контакты*/
 
 .delivery-title {
