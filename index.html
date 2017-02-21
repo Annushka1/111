@@ -16,7 +16,6 @@
 	<link rel="stylesheet" href="css/md-cols.css">
 	<link rel="stylesheet" href="css/sm-cols.css">
 	<link rel="stylesheet" href="css/xs-cols.css">
-	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -54,55 +53,59 @@
       </div>
     </div>
 
-	<div class="menu-order">
-		<form name="forma" method="get" action="/payment">
-			<p class="order-title">Для оплаты заказа заполните поля</p>
-			<p class="order-text">После заполнения формы вы будете</p>
-			<p class="order-text ">перенаправлены на сайт банка</p>
-			<select name="product" class="js-payment-popup-select-control">
-				<option value="">— Выберите модель</option>
-				<option data-price="2790" value="Syma X11">Квадрокоптер Syma X11 - 2 390 руб.</option>
-				<option data-price="3590" value="Syma X11C">Квадрокоптер Syma X11C - 3 290 руб.</option>
-				<option data-price="3990" value="Sky Walker">Квадрокоптер Sky Walker - 3 990 руб.</option>
-				<option data-price="4999" value="Syma X5C">Квадрокоптер Syma X5C - 4 799 руб.</option>
-				<option data-price="5490" value="Syma X5SC">Квадрокоптер Syma X5SC - 4 999 руб.</option>
-				<option data-price="6990" value="Syma X5SW">Квадрокоптер Syma X5SW - 8 990 руб. </option>
-				<option data-price="8990" value="Syma X8C">Квадрокоптер Syma X8C - 7 990 руб. </option>
-				<option data-price="8990" value="Syma X8W">Квадрокоптер Syma X8W - 9 490 руб. </option>
-				<option data-price="5190" value="Galaxy Visitor 8">Квадрокоптер Galaxy Visitor 8 - 5 190 руб. </option>
-				<option data-price="5490" value="WL Toys V262">Квадрокоптер WL Toys V262 - 5 490 руб. </option>
-				<option data-price="7999" value="X600">Гексакоптер X600 -  7 999 руб. </option>
-				<option data-price="10490" value="Hubsan H107D">Квадрокоптер Hubsan H107D -  10 490 руб. </option>
-				<option data-price="14990" value="Syma X8G">Квадрокоптер Syma X8G -  14 990 руб. </option>
-				<option data-price="24010" value="V303 Seeker">Квадрокоптер V303 Seeker - 24 010 руб.</option>
-				<option data-price="59990" value="DJI Phantom 3 Standard">Квадрокоптер DJI Phantom 3 Standard - 57 990 руб.</option>
-				<option data-price="81900" value="DJI Phantom 3 Advanced">Квадрокоптер DJI Phantom 3 Advanced - 79 990 руб.</option>
-				<option data-price="99500" value="DJI Phantom 3 Professional">Квадрокоптер DJI Phantom 3 Professional - 99 500 руб.</option>
-				<option data-price="235500" value="DJI Inspire 1">Квадрокоптер DJI Inspire 1 - 229 990 руб.</option>
-				<option data-price="384923" value="DJI Inspire 1 Pro">Квадрокоптер DJI Inspire 1 Pro - 359 990 руб.</option>
-				<option data-price="96890" value="Set Advanced">Квадрокоптер DJI Phantom 3 Advanced - 96 890 руб.</option>
-				<option data-price="115490" value="Set Professional">Квадрокоптер DJI Phantom 3 Professional - 115 490 руб.</option>
-				<option data-price="11499" value="Аккумулятор DJI Phantom 3">Аккумулятор DJI Phantom 3 - 10 800 руб.</option>
-				<option data-price="16499" value="Аккумулятор DJI Inspire">Аккумулятор DJI Inspire - 16 499 руб.</option>
-			</select>
-			<input type="number" required="required" maxlength="50" size="30" placeholder="Сумма, руб." name="amount" class="inputbox">
-			<input type="text" required="required" maxlength="50" size="30" placeholder="Номер заказа (сообщает менеджер)" name="order" class="inputbox form-buy__input" id="phone">
-			<input class="btn btn-green" type="submit" value="ПЕРЕЙТИ К ОПЛАТЕ">
-		</form>
-		<span class='callback_closer'>
-		</span>
-	</div>
+  <div class="menu-order-wrapper">
+    <div class="menu-order">
+    <form name="forma" method="get" action="/payment">
+      <p class="order-title">Для оплаты заказа заполните поля</p>
+      <p class="order-text">После заполнения формы вы будете</p>
+      <p class="order-text ">перенаправлены на сайт банка</p>
+      <select name="product" class="js-payment-popup-select-control">
+        <option value="">— Выберите модель</option>
+        <option data-price="2790" value="Syma X11">Квадрокоптер Syma X11 - 2 390 руб.</option>
+        <option data-price="3590" value="Syma X11C">Квадрокоптер Syma X11C - 3 290 руб.</option>
+        <option data-price="3990" value="Sky Walker">Квадрокоптер Sky Walker - 3 990 руб.</option>
+        <option data-price="4999" value="Syma X5C">Квадрокоптер Syma X5C - 4 799 руб.</option>
+        <option data-price="5490" value="Syma X5SC">Квадрокоптер Syma X5SC - 4 999 руб.</option>
+        <option data-price="6990" value="Syma X5SW">Квадрокоптер Syma X5SW - 8 990 руб. </option>
+        <option data-price="8990" value="Syma X8C">Квадрокоптер Syma X8C - 7 990 руб. </option>
+        <option data-price="8990" value="Syma X8W">Квадрокоптер Syma X8W - 9 490 руб. </option>
+        <option data-price="5190" value="Galaxy Visitor 8">Квадрокоптер Galaxy Visitor 8 - 5 190 руб. </option>
+        <option data-price="5490" value="WL Toys V262">Квадрокоптер WL Toys V262 - 5 490 руб. </option>
+        <option data-price="7999" value="X600">Гексакоптер X600 -  7 999 руб. </option>
+        <option data-price="10490" value="Hubsan H107D">Квадрокоптер Hubsan H107D -  10 490 руб. </option>
+        <option data-price="14990" value="Syma X8G">Квадрокоптер Syma X8G -  14 990 руб. </option>
+        <option data-price="24010" value="V303 Seeker">Квадрокоптер V303 Seeker - 24 010 руб.</option>
+        <option data-price="59990" value="DJI Phantom 3 Standard">Квадрокоптер DJI Phantom 3 Standard - 57 990 руб.</option>
+        <option data-price="81900" value="DJI Phantom 3 Advanced">Квадрокоптер DJI Phantom 3 Advanced - 79 990 руб.</option>
+        <option data-price="99500" value="DJI Phantom 3 Professional">Квадрокоптер DJI Phantom 3 Professional - 99 500 руб.</option>
+        <option data-price="235500" value="DJI Inspire 1">Квадрокоптер DJI Inspire 1 - 229 990 руб.</option>
+        <option data-price="384923" value="DJI Inspire 1 Pro">Квадрокоптер DJI Inspire 1 Pro - 359 990 руб.</option>
+        <option data-price="96890" value="Set Advanced">Квадрокоптер DJI Phantom 3 Advanced - 96 890 руб.</option>
+        <option data-price="115490" value="Set Professional">Квадрокоптер DJI Phantom 3 Professional - 115 490 руб.</option>
+        <option data-price="11499" value="Аккумулятор DJI Phantom 3">Аккумулятор DJI Phantom 3 - 10 800 руб.</option>
+        <option data-price="16499" value="Аккумулятор DJI Inspire">Аккумулятор DJI Inspire - 16 499 руб.</option>
+      </select>
+      <input type="number" required="required" maxlength="50" size="30" placeholder="Сумма, руб." name="amount" class="inputbox">
+      <input type="text" required="required" maxlength="50" size="30" placeholder="Номер заказа (сообщает менеджер)" name="order" class="inputbox form-buy__input">
+      <input class="btn btn-green" type="submit" value="ПЕРЕЙТИ К ОПЛАТЕ">
+    </form>
+    <span class='callback_closer'>
+    </span>
+  </div>
+  </div>
 </header>
 
 <main>
 	<div class="offer">
 		<div class="container">
-			<div class="offer-block">
-				<h1 class="offer-title">Квадрокоптеры в Санкт-Петербурге и Москве</h1>
-				<p class="offer-text">с доставкой по России от 2-х дней</p>
-				<p class="offer-text"><span>Aкция!</span> Скидка 30% до 23 февраля, гарантия 1 год</p>
-			</div>
-			<form action="" class="offer-form row offer-block">
+    <div class="row">
+      <div class="offer-block col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h1 class="offer-title">Квадрокоптеры в Санкт-Петербурге и Москве</h1>
+        <p class="offer-text">с доставкой по России от 2-х дней</p>
+        <p class="offer-text"><span>Aкция!</span> Скидка 30% до 23 февраля, гарантия 1 год</p>
+      </div>
+    </div>
+			<form action="" class="offer-form  offer-block col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				<p class="col-lg-6 col-md-6 col-sm-6 col-xs-12 offer-form-text">Поможем выбрать квадрокоптер за 2 минуты</p>
 				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 					<input type="text" required="required" maxlength="50" size="30" placeholder="Введите номе телефона" name="order" class="inputbox form-buy__input" id="phone">
@@ -419,7 +422,7 @@
           </div>
         </div>
         <div href="" class="catalog-item hvr-glow col-lg-4 col-md-4  col-sm-6 col-xs-12">
-          <a id="bx_3966226736_2383_pict" href="/wltoys_q333a/" class="bx_catalog_item_images" alt="Квадрокоптер WLToys Q333A"><img src="img/q333a.jpg">
+          <a id="bx_3966226736_2383_pict" href="/wltoys_q333a/" class="bx_catalog_item_images clearfix" alt="Квадрокоптер WLToys Q333A"><img src="img/q333a.jpg">
             <div class="product-mask">
               <ul>
                 <li><span>Размер: </span><span>45см</span></li>
@@ -756,7 +759,7 @@
 			<form action="cta.php" method="POST" name="forma" class="offer-block row consult-form">
 				<p class="col-lg-6 col-md-6 col-sm-6 col-xs-12 consult-text">ОСТАЛИСЬ ВОПРОСЫ? МЫ ВАМ ПЕРЕЗВОНИМ</p>
 				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-8 col-xs-push-2 ">
-					<input type="text" class="inputbox" name placeholder="Введите номер телефона" id="phone">
+					<input  type="text" required="required" maxlength="50" size="30" placeholder="Введите номе телефона" name="order" class="inputbox form-buy__input" id="phone">
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 ">
 					<input type="submit" name="submit" value="ЗАКАЗАТЬ ЗВОНОК" class="btn-green">
@@ -847,6 +850,21 @@
 			</div>
 		</div>
 	</footer>
+  <div class="menu-order-wrapper menu-order-bye">
+    <div class="menu-order">
+    <form name="forma" method="get" action="/payment">
+      <p class="order-title">Для покупки заполните поля</p>
+      <p class="order-text">Менеджер свяжется с вами</p>
+      <p class="order-text ">для уточнения деталей заказа</p>
+      <input class="inputbox" type="text" name="name" placeholder="Ваше имя" size="30" maxlength="50">
+      <input class="inputbox form-buy__input" type="text" required="required" name="order" placeholder="Номер телефона" size="30" maxlength="50" id="phone"  >
+      <input class="inputbox" type="text" name="time" placeholder="Удобное время для звонка" size="30" maxlength="50">
+      <input class="btn btn-green" type="submit" value="КУПИТЬ">
+    </form>
+    <span class='callback_closer'>
+    </span>
+  </div>
+  </div>
 	<script src='js/jquery-3.1.1.js'></script>
 	<script src='js/jquery.arcticmodal'></script>
 	<script src='js/jquery.maskedinput.min.js'></script>

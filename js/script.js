@@ -19,15 +19,22 @@ $('img.animated').hover(
 // модалка
 
  $('.btn-red').on('click', function(){
-    $('.menu-order').fadeIn();
+    $('.menu-order-bye').fadeIn();
   });
  $('.callback_closer').on('click', function(){
-    $('.menu-order').fadeOut();
+    $('.menu-order-bye').fadeOut();
+  });
+
+  $('.btn-basket').on('click', function(){
+    $('.menu-order-wrapper').fadeIn();
+  });
+ $('.callback_closer').on('click', function(){
+    $('.menu-order-wrapper').fadeOut();
   });
 
  //maskinput
 
-   $("#phone").mask("(999) 999-9999");
+   $(".form-buy__input").mask("(999) 999-9999");
 
 //галерея (3-4 страница)
 

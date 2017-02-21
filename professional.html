@@ -17,7 +17,6 @@
   <link rel="stylesheet" href="css/md-cols.css">
   <link rel="stylesheet" href="css/sm-cols.css">
   <link rel="stylesheet" href="css/xs-cols.css">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -56,7 +55,8 @@
     </div>
   </div>
 
-  <div class="menu-order">
+  <div class="menu-order-wrapper">
+    <div class="menu-order">
     <form name="forma" method="get" action="/payment">
       <p class="order-title">Для оплаты заказа заполните поля</p>
       <p class="order-text">После заполнения формы вы будете</p>
@@ -88,27 +88,30 @@
         <option data-price="16499" value="Аккумулятор DJI Inspire">Аккумулятор DJI Inspire - 16 499 руб.</option>
       </select>
       <input type="number" required="required" maxlength="50" size="30" placeholder="Сумма, руб." name="amount" class="inputbox">
-      <input type="text" required="required" maxlength="50" size="30" placeholder="Номер заказа (сообщает менеджер)" name="order" class="inputbox">
+      <input type="text" required="required" maxlength="50" size="30" placeholder="Номер заказа (сообщает менеджер)" name="order" class="inputbox form-buy__input" id="phone">
       <input class="btn btn-green" type="submit" value="ПЕРЕЙТИ К ОПЛАТЕ">
     </form>
     <span class='callback_closer'>
     </span>
+  </div>
   </div>
 </header>
 
 <main>
   <div class="offer offer-proffessional">
     <div class="container">
-      <div class="offer-block">
+    <div class="row">
+      <div class="offer-block col-lg-12 col-md-12 col-sm-12 col-xs-12">
         <h1 class="offer-title">Профессиональные квадрокоптеры в Москве и СПб</h1>
         <p class="offer-text">Вся линейка квадрокоптеров DJI в наличии</p>
       </div>
+    </div>
     </div>
   </div>
 
   <div class="professional-form">
     <div class="container">
-     <form action="" class="offer-form row offer-block">
+     <form action="" class="offer-form offer-block col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <p class="col-lg-6 col-md-6 col-sm-6 col-xs-12 offer-form-text">Поможем выбрать квадрокоптер за 2 минуты</p>
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
           <input type="text" required="required" maxlength="50" size="30" placeholder="Введите номе телефона" name="order" class="inputbox form-buy__input" id="phone">
