@@ -106,12 +106,18 @@
 	.offer-title {
 		font-size: 35px;
 	}
+
+	.offer-form{
+		padding: 8px 0;
+	}
+
 	.offer-text {
 		font-size: 22px;
 	}
 
 	.offer-form-text {
 		font-size: 20px;
+		margin-top: 9px;
 	}
 
 	.btn-green {
@@ -120,6 +126,24 @@
 
 	.advantages-items:before {
 		width: 780px;
+	}
+
+	.advantages span {
+		width: 200px;
+		display: inline-block;
+		margin-left: 33px;
+	}
+
+	.advantages-gps {
+		left: 67px;
+	}
+
+	.advantages-camera {
+		left: 86px;
+	}
+
+	.advantages-timer {
+		left: 92px;
 	}
 
 	.product-mask {
@@ -150,6 +174,10 @@
 		margin-left: 0;
 	}
 
+	.footer-item {
+		width: 188px;
+	}
+
 	.footer-item ul {
 		font-size: 14px;
 	}
@@ -160,6 +188,14 @@
 
 	.footer-item a {
 		font-size: 12px;
+	}
+
+	.footer_info {
+		font-size: 12px;
+	}
+
+	.footer_info:before {
+		left: 50px;
 	}
 
 	.page-footer {

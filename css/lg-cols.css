@@ -479,6 +479,7 @@ input, textarea, select {
   font-size: 19px;
   position: relative;
   height: 20px;
+  margin-left: 20px;
 }
 
 .advantages-items {
@@ -503,7 +504,7 @@ input, textarea, select {
 }
 
 .advantages-gps {
-  left: 90px;
+  left: 95px;
 }
 
 .advantages-camera {
@@ -511,7 +512,7 @@ input, textarea, select {
 }
 
 .advantages-timer {
-  left: 110px;
+  left: 123px;
 }
 
 /*catalog-top*/
@@ -799,19 +800,21 @@ input, textarea, select {
   font-size: 16px;
   font-weight: 300;
   line-height: 20px;
+  position: relative;
 }
 
-.footer-items {
-  padding: 45px 0 65px 0;
-}
+.page-footer .container {
+  padding: 45px 0 50px 0;
+ }
 
-.footer-items:after {
+.footer_info:before {
   content: "";
   border-bottom: 4px solid #1abc9c;
-  width: 95%;
-  bottom: -60px;
-  left: 25px;
-  position: relative;
+  width: 90%;
+  bottom: 180px;
+  height: 4px;
+  left: 60px;
+  position: absolute;
 }
 
 .footer-item a {
@@ -834,10 +837,14 @@ input, textarea, select {
 
 .footer-item {
   color: #fff;
+  width: 228px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
 }
 
 .footer_info {
-  padding: 35px 0 40px 0;
+  padding-top: 90px;
 }
 
 .footer_info, .footer_info-link {
