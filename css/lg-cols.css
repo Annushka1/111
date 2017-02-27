@@ -179,6 +179,10 @@ html {
   padding-top: 5px;
 }
 
+.close {
+  display: none;
+}
+
 .img-text {
   text-transform: uppercase;
   font-size: 26px;

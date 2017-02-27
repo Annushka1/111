@@ -65,6 +65,10 @@
     float: left;
   }
 
+  .close {
+  	display: none;
+  }
+
 	.logo-text {
 		font-size: 19px;
 	}

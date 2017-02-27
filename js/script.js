@@ -2,9 +2,17 @@ $(document).ready(function() {
 
 // бургер
 
-  // $('.burger').on('click', function(){
-  //   $('.main-nav').slideToggle();
-  // });
+  $('.burger').on('click', function(){
+    $('.main-nav').addClass('open');
+    $('.close').fadeIn();
+  });
+
+  $('.close').on('click', function(){
+    $('.main-nav').removeClass('open');
+    $('.close').hide();
+  });
+
+  $('.close').hide();
 
 // трясущиеся иконки
 
@@ -50,15 +58,15 @@ $(".btn-requisites").click(function () {
     });
 
 //burger
-$('.close-nav').hide();
- $('.burger').on('click', function(){
-    $('.main-nav').fadeIn();
-    $('.close-nav').fadeIn();
-  });
- $('.close-nav').on('click', function(){
-    $(this).fadeOut();
-    $('.main-nav').fadeOut();
-  });
+// $('.close-nav').hide();
+//  $('.burger').on('click', function(){
+//     $('.main-nav').fadeIn();
+//     $('.close-nav').fadeIn();
+//   });
+//  $('.close-nav').on('click', function(){
+//     $(this).fadeOut();
+//     $('.main-nav').fadeOut();
+//   });
 
  //табы
 var tabs = document.querySelectorAll('.menu-tabs .tab a');
