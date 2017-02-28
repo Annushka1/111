@@ -60,13 +60,13 @@
       </div>
     </div>
 
-  <div class="menu-order-wrapper">
+  <div class="menu-order-wrapper menu-order-bye1">
     <div class="menu-order">
     <form name="forma" method="get" action="/payment">
-      <p class="order-title">Для оплаты заказа заполните поля</p>
-      <p class="order-text">После заполнения формы вы будете</p>
-      <p class="order-text ">перенаправлены на сайт банка</p>
-      <select name="product" class="js-payment-popup-select-control">
+        <p class="order-title">Для оплаты заказа заполните поля</p>
+        <p class="order-text">После заполнения формы вы будете</p>
+        <p class="order-text ">перенаправлены на сайт банка</p>
+        <select name="product" class="js-payment-popup-select-control">
         <option value="">— Выберите модель</option>
         <option data-price="2790" value="Syma X11">Квадрокоптер Syma X11 - 2 390 руб.</option>
         <option data-price="3590" value="Syma X11C">Квадрокоптер Syma X11C - 3 290 руб.</option>
@@ -93,7 +93,7 @@
         <option data-price="16499" value="Аккумулятор DJI Inspire">Аккумулятор DJI Inspire - 16 499 руб.</option>
       </select>
       <input type="number" required="required" maxlength="50" size="30" placeholder="Сумма, руб." name="amount" class="inputbox">
-      <input type="text" required="required" maxlength="50" size="30" placeholder="Номер заказа (сообщает менеджер)" name="order" class="inputbox form-buy__input">
+      <input type="text" required="required" maxlength="50" size="30" placeholder="Номер заказа (сообщает менеджер)" name="order" class="inputbox">
       <input class="btn btn-green" type="submit" value="ПЕРЕЙТИ К ОПЛАТЕ">
     </form>
     <span class='callback_closer'>
@@ -119,7 +119,7 @@
      <form action="" class="offer-form offer-block col-lg-12 col-md-12 col-sm-12 col-xs-12">
       <p class="col-lg-6 col-md-6 col-sm-6 col-xs-12 offer-form-text">Поможем выбрать квадрокоптер за 2 минуты</p>
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-          <input type="text" required="required" maxlength="50" size="30" placeholder="Введите номе телефона" name="order" class="inputbox form-buy__input" id="phone">
+          <input type="text" required="required" maxlength="50" size="30" placeholder="Введите номе телефона" name="order" class="inputbox form-buy__input">
         </div>
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
         <input type="submit" name="submit" value="Получить консультацию" class="btn-green">
@@ -995,6 +995,21 @@
   </div>
 </div>
 </footer>
+<div class="menu-order-wrapper menu-order-bye2">
+    <div class="menu-order">
+    <form name="forma" method="get" action="/payment">
+      <p class="order-title">Для покупки заполните поля</p>
+      <p class="order-text">Менеджер свяжется с вами</p>
+      <p class="order-text ">для уточнения деталей заказа</p>
+      <input class="inputbox" type="text" name="name" placeholder="Ваше имя" size="30" maxlength="50">
+      <input class="inputbox form-buy__input" type="text" required="required" name="order" placeholder="Номер телефона" size="30" maxlength="50" id="phone"  >
+      <input class="inputbox" type="text" name="time" placeholder="Удобное время для звонка" size="30" maxlength="50">
+      <input class="btn btn-green" type="submit" value="КУПИТЬ">
+    </form>
+    <span class='callback_closer'>
+    </span>
+  </div>
+  </div>
 <script src='js/jquery-3.1.1.js'></script>
 <script src='js/jquery.arcticmodal'></script>
 <script src='js/jquery.maskedinput.min.js'></script>

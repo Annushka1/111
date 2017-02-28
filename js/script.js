@@ -27,17 +27,17 @@ $('img.animated').hover(
 // модалка
 
  $('.btn-red').on('click', function(){
-    $('.menu-order-bye').fadeIn();
+    $('.menu-order-bye1').fadeIn();
   });
  $('.callback_closer').on('click', function(){
-    $('.menu-order-bye').fadeOut();
+    $('.menu-order-bye1').fadeOut();
   });
 
   $('.btn-basket').on('click', function(){
-    $('.menu-order-wrapper').fadeIn();
+    $('.menu-order-bye2').fadeIn();
   });
  $('.callback_closer').on('click', function(){
-    $('.menu-order-wrapper').fadeOut();
+    $('.menu-order-bye2').fadeOut();
   });
 
  //maskinput

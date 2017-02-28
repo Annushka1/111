@@ -858,6 +858,7 @@ input, textarea, select {
   display: inline-block;
   text-align: left;
   vertical-align: top;
+  margin-left: 10px;
 }
 
 .footer_info {
@@ -889,10 +890,6 @@ input, textarea, select {
   background-repeat: no-repeat;
   background-size: cover;
 
-}
-
-.professional-seo p {
-  padding: 0 30px 0 30px;
 }
 
 .prof-catalog {
