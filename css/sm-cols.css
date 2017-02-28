@@ -336,6 +336,7 @@
     font-size: 14px;
     padding-left: 40px;
     width: 244px;
+    margin-left: 0;
   }
 
   .footer-item:nth-child(5), .footer-item:nth-child(4) {
@@ -352,6 +353,11 @@
 
   .page-footer {
     font-size: 14px;
+  }
+
+  .footer_info:before {
+    bottom: 199px;
+    left: 42px;
   }
 
   .offer-form-text {

@@ -433,6 +433,12 @@
   width: 100%;
 }
 
+.footer_info:before {
+  width: 66%;
+  bottom: 256px;
+  left: 90px;
+}
+
 // профи
 .offer-form-text {
   text-align: center;

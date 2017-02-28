@@ -193,6 +193,7 @@
 
 	.footer-item {
 		width: 188px;
+		margin-left: 0;
 	}
 
 	.footer-item ul {
@@ -212,7 +213,7 @@
 	}
 
 	.footer_info:before {
-		left: 50px;
+    left: 57px;
 	}
 
 	.page-footer {

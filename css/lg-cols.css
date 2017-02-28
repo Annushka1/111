@@ -828,7 +828,7 @@ input, textarea, select {
   content: "";
   border-bottom: 4px solid #1abc9c;
   width: 90%;
-  bottom: 180px;
+  bottom: 164px;
   height: 4px;
   left: 60px;
   position: absolute;
