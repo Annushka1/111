@@ -14,16 +14,6 @@ $(document).ready(function() {
 
   $('.close').hide();
 
-// трясущиеся иконки
-
-$('img.animated').hover(
- function() {
-   $(this).addClass('shake'); // Добавляем класс bounce
-  },
-  function() {
-   $(this).removeClass('shake'); // Убираем класс
- })
-
 // модалка
 
  $('.btn-red').on('click', function(){
@@ -56,17 +46,6 @@ $('.mini_photos').click( function() {
 $(".btn-requisites").click(function () {
       $(".requisites-text").fadeToggle();
     });
-
-//burger
-// $('.close-nav').hide();
-//  $('.burger').on('click', function(){
-//     $('.main-nav').fadeIn();
-//     $('.close-nav').fadeIn();
-//   });
-//  $('.close-nav').on('click', function(){
-//     $(this).fadeOut();
-//     $('.main-nav').fadeOut();
-//   });
 
  //табы
 var tabs = document.querySelectorAll('.menu-tabs .tab a');

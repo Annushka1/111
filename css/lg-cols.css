@@ -360,10 +360,13 @@ input, textarea, select {
   display: none;
 }
 
-.main-nav {
+.navigation {
   background-color: #383A46;
   border-bottom: 1px solid #AFE2D8;
   border-top: 1px solid #AFE2D8;
+}
+
+.main-nav {
   position: relative;
   padding: 5px 0 5px 0;
   text-align: center;
@@ -383,10 +386,10 @@ input, textarea, select {
  content: "";
   background-color: #1abc9c;
   height: 4px;
-  width: 9%;
+  width: 8%;
   position: absolute;
   top: 22px;
-  left: 2%;
+  left: 0;
   margin: 5px 0;
 }
 
@@ -398,10 +401,10 @@ input, textarea, select {
  content: "";
   background-color: #1abc9c;
   height: 4px;
-  width: 9%;
+  width: 8%;
   position: absolute;
   top: 28px;
-  right: 2%;
+  right: 0;
 }
 
 .btn-red {
@@ -518,6 +521,7 @@ input, textarea, select {
 .advantages-gps, .advantages-camera, .advantages-timer {
   top: -40px;
   position: relative;
+  margin-bottom: 45px;
 }
 
 .advantages-gps {
@@ -830,7 +834,7 @@ input, textarea, select {
   width: 90%;
   bottom: 164px;
   height: 4px;
-  left: 60px;
+  left: 80px;
   position: absolute;
 }
 
@@ -858,7 +862,6 @@ input, textarea, select {
   display: inline-block;
   text-align: left;
   vertical-align: top;
-  margin-left: 10px;
 }
 
 .footer_info {

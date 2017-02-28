@@ -45,40 +45,6 @@
   transform: scale(0.9);
 }
 
-
-/* Outline Outward */
-
-.outline-outward {
-  display: inline-block;
-  position: relative;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-
-.outline-outward:before {
-  content: '';
-  position: absolute;
-  border: #19c15f solid 4px;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  -webkit-transition-duration: .3s;
-  transition-duration: .3s;
-  -webkit-transition-property: top, right, bottom, left;
-  transition-property: top, right, bottom, left;
-}
-
-.outline-outward:hover:before {
-  top: -8px;
-  right: -8px;
-  bottom: -8px;
-  left: -8px;
-}
-
 /* Pulse */
 @-webkit-keyframes hvr-pulse {
   25% {
@@ -2112,7 +2078,7 @@
 .hvr-outline-out:before {
   content: '';
   position: absolute;
-  border: #e1e1e1 solid 4px;
+  border: #19c25f solid 4px;
   top: 0;
   right: 0;
   bottom: 0;
@@ -2583,8 +2549,8 @@
 }
 .hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
   opacity: 1;
-  -webkit-transform: translateY(5px);
-  transform: translateY(5px);
+  -webkit-transform: translateY(0px);
+  transform: translateY(0px);
   /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
 }
 
@@ -2955,26 +2921,26 @@
 /* Icon Down */
 @-webkit-keyframes hvr-icon-down {
   0%,
-	50%,
-	100% {
+  50%,
+  100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
   25%,
-	75% {
+  75% {
     -webkit-transform: translateY(6px);
     transform: translateY(6px);
   }
 }
 @keyframes hvr-icon-down {
   0%,
-	50%,
-	100% {
+  50%,
+  100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
   25%,
-	75% {
+  75% {
     -webkit-transform: translateY(6px);
     transform: translateY(6px);
   }
@@ -3010,26 +2976,26 @@
 /* Icon Up */
 @-webkit-keyframes hvr-icon-up {
   0%,
-	50%,
-	100% {
+  50%,
+  100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
   25%,
-	75% {
+  75% {
     -webkit-transform: translateY(-6px);
     transform: translateY(-6px);
   }
 }
 @keyframes hvr-icon-up {
   0%,
-	50%,
-	100% {
+  50%,
+  100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
   }
   25%,
-	75% {
+  75% {
     -webkit-transform: translateY(-6px);
     transform: translateY(-6px);
   }
@@ -3101,7 +3067,7 @@
     transform: translateY(-100%);
   }
   51%,
-	100% {
+  100% {
     opacity: 1;
   }
 }
@@ -3115,7 +3081,7 @@
     transform: translateY(-100%);
   }
   51%,
-	100% {
+  100% {
     opacity: 1;
   }
 }

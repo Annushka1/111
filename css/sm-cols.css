@@ -126,8 +126,15 @@
     position: relative;
     bottom: -30px;
   }
+
+  .navigation {
+    border-bottom: 0;
+    border-top: 0;
+    background-color: transparent;
+  }
+
    .main-nav {
-    flex-direction: column;
+    background-color: #383A46;
     text-align: center;
     transform: translateX(100%);
     transition: transform 0.2s ease;
@@ -264,13 +271,13 @@
   }
 
   .close {
-    float: right;
     margin: 15px 10px;
     position: fixed;
-    margin-left: 66%;
+    left: 3px;
     z-index: 4;
     top: 0;
   }
+
   .close span {
     background-color: transparent;
   }
