@@ -305,25 +305,16 @@
     width: 61%;
   }
 
-  // .close-nav:before {
-  //   content: "";
-  //   cursor: pointer;
-  //   position: absolute;
-  //   width: 25px;
-  //   height: 25px;
-  //   top: 8px;
-  //   right: 219px;
-  //   /* left: 0; */
-  //   z-index: 3;
-  //   background-image: url(../img/closewindow.jpg);
-  // }
-
   .offer-form {
     text-align: center;
   }
 
+  .offer-proffessional .offer-block {
+    padding: 15px 5px 25px 5px;
+  }
+
   .offer-title {
-    font-size: 16px;
+    font-size: 17px;
   }
 
   .offer-text {
