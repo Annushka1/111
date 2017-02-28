@@ -197,6 +197,11 @@ html {
   float: left;
 }
 
+.logo-text:last-child {
+  padding-bottom: 5px;
+}
+
+
 .header-logo a {
   font-size: 20px;
   text-decoration: none;
@@ -213,7 +218,15 @@ html {
 .site-telefone-item {
   text-align: right;
   font-size: 17px;
-  margin-bottom: 5px;
+  height: 30px;
+}
+
+.call-sm {
+  display: none;
+}
+
+.site-telefone-item:first-child {
+  padding-top: 0;
 }
 
 .telephone-number {

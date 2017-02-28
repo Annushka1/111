@@ -77,6 +77,10 @@
 		margin-bottom: 10px;
 	}
 
+	.call-sm {
+		display: none;
+	}
+
 .main-nav .callback_closer {
   display: none;
 }
