@@ -75,6 +75,7 @@
 
 	.site-telefone-item {
 		margin-bottom: 10px;
+		height: 20px;
 	}
 
 	.call-sm {
@@ -126,6 +127,10 @@
 	.offer-form-text {
 		font-size: 20px;
 		margin-top: 9px;
+	}
+
+	.menu-order .inputbox {
+		width: 300px;
 	}
 
 	.btn-green {
