@@ -1377,11 +1377,11 @@ html {
   text-decoration: none;
   color: #808080;
   font-size: 20px;
-  padding: 5px 10px;
+  padding: 5px 20px;
   margin-left: 17%;
 }
 
-.btn-rewievs.outline-outward:before {
+.btn-rewievs.hvr-outline-out:before {
   content: "";
   border: #8C8C8C solid 2px;
 }
